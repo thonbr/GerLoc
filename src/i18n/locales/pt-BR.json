@@ -1,0 +1,427 @@
+{
+  "common": {
+    "loading": "Carregando...",
+    "error": "Erro",
+    "success": "Sucesso",
+    "save": "Salvar",
+    "saving": "Salvando...",
+    "cancel": "Cancelar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "view": "Visualizar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "status": "Status",
+    "actions": "Ações",
+    "details": "Detalhes",
+    "viewDetails": "Ver detalhes",
+    "user": "Usuário",
+    "all": "Todos",
+    "select": "Selecione",
+    "company": "Empresa",
+    "plan": "Plano",
+    "users": "Usuários",
+    "none": "Nenhum",
+    "month": "mês",
+    "lastMonth": "em relação ao mês anterior",
+    "lastCheck": "Última verificação",
+    "timeAgo": {
+      "minutes": "{{count}} minutos atrás",
+      "hours": "{{count}} horas atrás"
+    }
+  },
+  "errors": {
+    "unknown": "Ocorreu um erro inesperado",
+    "noCompany": "Usuário não está associado a uma empresa",
+    "invalidEmail": "Email inválido",
+    "passwordMismatch": "As senhas não conferem",
+    "weakPassword": "A senha deve ter pelo menos 8 caracteres"
+  },
+  "auth": {
+    "signIn": "Entrar",
+    "signOut": "Sair",
+    "register": "Cadastrar",
+    "forgotPassword": "Esqueceu a senha?",
+    "email": "E-mail",
+    "password": "Senha",
+    "confirmPassword": "Confirmar senha",
+    "name": "Nome",
+    "welcome": "Bem-vindo de volta",
+    "noAccount": "Não tem uma conta?",
+    "getStarted": "Começar agora",
+    "hasAccount": "Já tem uma conta?",
+    "resetPassword": "Redefinir senha",
+    "enterEmail": "Digite seu e-mail para redefinir sua senha"
+  },
+  "dashboard": {
+    "title": "Painel",
+    "welcome": "Bem-vindo, {{name}}!",
+    "stats": {
+      "totalVehicles": "Total de Veículos",
+      "activeRentals": "Aluguéis Ativos",
+      "tenants": "Locatários",
+      "monthlyRevenue": "Receita Mensal"
+    },
+    "quickActions": {
+      "title": "Ações Rápidas",
+      "addVehicle": "Adicionar Veículo",
+      "newTenant": "Novo Locatário",
+      "createContract": "Criar Contrato",
+      "financialReport": "Relatório Financeiro"
+    },
+    "last6Months": "Últimos 6 meses"
+  },
+  "platform": {
+    "title": "Plataforma",
+    "overview": {
+      "title": "Visão Geral da Plataforma",
+      "subtitle": "Monitore o desempenho geral da plataforma, empresas clientes e métricas de assinatura",
+      "stats": {
+        "totalCompanies": "Total de Empresas",
+        "activeSubscriptions": "Assinaturas Ativas",
+        "mrr": "Receita Mensal Recorrente",
+        "systemUptime": "Uptime do Sistema"
+      }
+    },
+    "companies": "Empresas",
+    "users": {
+      "title": "Usuários",
+      "subtitle": "Gerencie todos os usuários da plataforma",
+      "addUser": "Adicionar Usuário",
+      "edit": "Editar Usuário",
+      "delete": "Excluir Usuário",
+      "confirmDelete": "Tem certeza que deseja excluir este usuário?"
+    },
+    "plans": {
+      "title": "Planos",
+      "subtitle": "Gerencie os planos de assinatura disponíveis para as empresas",
+      "add": "Criar Plano",
+      "edit": "Editar Plano",
+      "empty": "Nenhum plano cadastrado",
+      "emptyDescription": "Comece criando seu primeiro plano de assinatura",
+      "confirmDelete": "Tem certeza que deseja excluir este plano?",
+      "inactive": "Este plano está inativo",
+      "details": {
+        "name": "Nome do Plano",
+        "description": "Descrição",
+        "price": "Preço Mensal",
+        "features": "Recursos",
+        "featurePlaceholder": "Digite um recurso e pressione Enter",
+        "limits": "Limites",
+        "maxUsers": "Máximo de Usuários",
+        "maxVehicles": "Máximo de Veículos",
+        "maxContracts": "Máximo de Contratos",
+        "active": "Plano Ativo"
+      }
+    },
+    "recentCompanies": {
+      "title": "Empresas Recentes",
+      "addedOn": "Adicionada em",
+      "noPlan": "Sem Plano"
+    },
+    "subscriptionDistribution": {
+      "title": "Distribuição de Assinaturas",
+      "percentageOfCompanies": "% das empresas"
+    },
+    "revenueTrend": {
+      "title": "Tendência de Receita",
+      "subtitle": "Acompanhamento do crescimento da receita recorrente",
+      "monthlyRecurringRevenue": "Receita Mensal Recorrente"
+    },
+    "systemHealth": {
+      "title": "Saúde do Sistema",
+      "subtitle": "Monitore o desempenho do sistema, uptime e status dos serviços",
+      "currentStatus": "Status Atual",
+      "services": {
+        "apiServer": "Servidor API",
+        "database": "Banco de Dados",
+        "emailService": "Serviço de Email",
+        "paymentGateway": "Gateway de Pagamento"
+      },
+      "metrics": {
+        "title": "Métricas do Sistema",
+        "uptime": "Uptime",
+        "latency": "Latência",
+        "noIncidents": "Nenhum incidente ativo",
+        "activeIncidents": "Incidentes Ativos"
+      }
+    },
+    "addCompany": "Adicionar Empresa",
+    "editCompany": "Editar Empresa",
+    "addPlan": "Criar Plano",
+    "subtitle": "Gerencie e monitore todas as empresas usando a plataforma",
+    "company": {
+      "name": "Nome da Empresa",
+      "email": "Email",
+      "phone": "Telefone",
+      "status": "Status",
+      "plan": "Plano",
+      "subscriptionStatus": "Status da Assinatura",
+      "subscriptionEndDate": "Data de Término da Assinatura",
+      "confirmDelete": "Tem certeza que deseja excluir esta empresa?",
+      "statuses": {
+        "active": "Ativa",
+        "inactive": "Inativa",
+        "suspended": "Suspensa"
+      },
+      "subscriptionStatuses": {
+        "active": "Ativa",
+        "pastDue": "Atrasada",
+        "canceled": "Cancelada"
+      }
+    }
+  },
+  "vehicles": {
+    "title": "Veículos",
+    "subtitle": "Gerencie sua frota de motos, acompanhe manutenções e monitore disponibilidade.",
+    "add": "Adicionar Veículo",
+    "edit": "Editar Veículo",
+    "addVehicle": "Adicionar Veículo",
+    "noVehicles": "Nenhum veículo encontrado",
+    "noResults": "Nenhum veículo encontrado para \"{{search}}\" com status \"{{status}}\"",
+    "empty": "Nenhum veículo cadastrado ainda",
+    "status": {
+      "all": "Todos os Status",
+      "available": "Disponível",
+      "rented": "Alugado",
+      "maintenance": "Em Manutenção"
+    },
+    "details": {
+      "brand": "Marca",
+      "model": "Modelo",
+      "year": "Ano",
+      "plate": "Placa",
+      "dailyRate": "Diária",
+      "mileage": "Quilometragem",
+      "status": "Status",
+      "lastMaintenance": "Última Manutenção",
+      "nextMaintenance": "Próxima Manutenção",
+      "notes": "Observações"
+    }
+  },
+  "contracts": {
+    "title": "Contratos",
+    "subtitle": "Gerencie e monitore todos os contratos de aluguel e seus status",
+    "add": "Adicionar Contrato",
+    "edit": "Editar Contrato",
+    "addContract": "Novo Contrato",
+    "noContracts": "Nenhum contrato encontrado",
+    "noResults": "Nenhum contrato encontrado para \"{{search}}\" com status \"{{status}}\"",
+    "empty": "Nenhum contrato cadastrado ainda",
+    "status": {
+      "active": "Ativo",
+      "pending": "Pendente",
+      "completed": "Concluído",
+      "canceled": "Cancelado"
+    },
+    "payment": {
+      "paid": "Pago",
+      "pending": "Pendente",
+      "overdue": "Atrasado"
+    },
+    "details": {
+      "tenant": "Locatário",
+      "vehicle": "Veículo",
+      "period": "Período",
+      "amount": "Valor",
+      "status": "Status",
+      "paymentStatus": "Status do Pagamento",
+      "startDate": "Data de Início",
+      "endDate": "Data de Término",
+      "notes": "Observações"
+    }
+  },
+  "finances": {
+    "title": "Financeiro",
+    "subtitle": "Acompanhe receitas, despesas e métricas de desempenho financeiro",
+    "revenue": "Receita",
+    "expenses": "Despesas",
+    "netIncome": "Lucro Líquido",
+    "export": "Exportar"
+  },
+  "tenants": {
+    "title": "Locatários",
+    "subtitle": "Gerencie os locatários e seus contratos",
+    "add": "Adicionar Locatário",
+    "edit": "Editar Locatário",
+    "addTenant": "Novo Locatário",
+    "noTenants": "Nenhum locatário encontrado",
+    "noResults": "Nenhum locatário encontrado para \"{{search}}\" com status \"{{status}}\"",
+    "empty": "Nenhum locatário cadastrado ainda",
+    "status": {
+      "active": "Ativo",
+      "inactive": "Inativo"
+    },
+    "details": {
+      "name": "Nome",
+      "email": "Email",
+      "phone": "Telefone",
+      "since": "Cliente desde",
+      "active": "Locatário Ativo"
+    }
+  },
+  "users": {
+    "title": "Usuários",
+    "subtitle": "Gerencie os usuários do sistema",
+    "add": "Adicionar Usuário",
+    "edit": "Editar Usuário",
+    "addUser": "Novo Usuário",
+    "noUsers": "Nenhum usuário encontrado",
+    "noResults": "Nenhum usuário encontrado para os filtros selecionados",
+    "empty": "Nenhum usuário cadastrado ainda",
+    "confirmDelete": "Tem certeza que deseja excluir este usuário?",
+    "roles": {
+      "all": "Todas as Funções",
+      "platform_admin": "Administrador da Plataforma",
+      "company_admin": "Administrador da Empresa",
+      "company_user": "Usuário da Empresa"
+    },
+    "status": {
+      "all": "Todos os Status",
+      "active": "Ativo",
+      "inactive": "Inativo"
+    },
+    "details": {
+      "name": "Nome",
+      "email": "Email",
+      "role": "Função",
+      "status": "Status",
+      "lastActive": "Último Acesso",
+      "never": "Nunca",
+      "active": "Usuário Ativo"
+    }
+  },
+  "companies": {
+    "noResults": "Nenhuma empresa encontrada",
+    "empty": "Nenhuma empresa cadastrada ainda"
+  },
+  "profile": {
+    "title": "Seu Perfil",
+    "editProfile": "Editar Perfil",
+    "changePassword": "Alterar Senha"
+  },
+  "settings": {
+    "title": "Configurações",
+    "general": "Geral",
+    "notifications": "Notificações",
+    "security": "Segurança",
+    "billing": "Faturamento"
+  },
+  "documents": {
+    "title": "Documentos",
+    "vehicle": {
+      "title": "Documentos de Veículos",
+      "subtitle": "Gerencie documentos e vencimentos dos veículos",
+      "add": "Adicionar Documento",
+      "edit": "Editar Documento",
+      "noDocuments": "Nenhum documento encontrado",
+      "empty": "Nenhum documento cadastrado ainda",
+      "status": {
+        "valid": "Válido",
+        "expiringSoon": "Vence em breve",
+        "expired": "Vencido",
+        "noExpiration": "Sem vencimento"
+      },
+      "details": {
+        "vehicle": "Veículo",
+        "type": "Tipo de Documento",
+        "expiration": "Vencimento",
+        "status": "Status",
+        "file": "Arquivo",
+        "notes": "Observações"
+      }
+    },
+    "tenant": {
+      "title": "Documentos de Locatários",
+      "subtitle": "Gerencie documentos e vencimentos dos locatários",
+      "add": "Adicionar Documento",
+      "edit": "Editar Documento",
+      "noDocuments": "Nenhum documento encontrado",
+      "empty": "Nenhum documento cadastrado ainda",
+      "status": {
+        "valid": "Válido",
+        "expiringSoon": "Vence em breve",
+        "expired": "Vencido",
+        "noExpiration": "Sem vencimento"
+      },
+      "details": {
+        "tenant": "Locatário",
+        "type": "Tipo de Documento",
+        "expiration": "Vencimento",
+        "status": "Status",
+        "file": "Arquivo",
+        "notes": "Observações"
+      }
+    }
+  },
+  "maintenances": {
+    "title": "Manutenções",
+    "subtitle": "Gerencie o histórico de manutenções dos veículos",
+    "add": "Adicionar Manutenção",
+    "edit": "Editar Manutenção",
+    "noMaintenances": "Nenhuma manutenção encontrada",
+    "empty": "Nenhuma manutenção cadastrada ainda",
+    "details": {
+      "vehicle": "Veículo",
+      "type": "Tipo de Manutenção",
+      "date": "Data",
+      "cost": "Custo",
+      "supplier": "Fornecedor",
+      "description": "Descrição",
+      "partsUsed": "Peças Utilizadas"
+    }
+  },
+  "fines": {
+    "title": "Multas",
+    "subtitle": "Gerencie multas e infrações dos veículos",
+    "add": "Adicionar Multa",
+    "edit": "Editar Multa",
+    "noFines": "Nenhuma multa encontrada",
+    "empty": "Nenhuma multa cadastrada ainda",
+    "status": {
+      "pending": "Pendente",
+      "paid": "Paga",
+      "disputed": "Contestada"
+    },
+    "details": {
+      "vehicle": "Veículo",
+      "date": "Data",
+      "amount": "Valor",
+      "description": "Descrição",
+      "paymentStatus": "Status do Pagamento"
+    }
+  },
+  "suppliers": {
+    "title": "Fornecedores",
+    "subtitle": "Gerencie seus fornecedores de serviços e produtos",
+    "add": "Adicionar Fornecedor",
+    "edit": "Editar Fornecedor",
+    "noSuppliers": "Nenhum fornecedor encontrado",
+    "empty": "Nenhum fornecedor cadastrado ainda",
+    "details": {
+      "name": "Nome",
+      "contactPerson": "Pessoa de Contato",
+      "phone": "Telefone",
+      "email": "Email",
+      "address": "Endereço",
+      "services": "Serviços Fornecidos"
+    }
+  },
+  "expenses": {
+    "title": "Despesas",
+    "subtitle": "Gerencie e controle todas as despesas da empresa",
+    "add": "Adicionar Despesa",
+    "edit": "Editar Despesa",
+    "noExpenses": "Nenhuma despesa encontrada",
+    "empty": "Nenhuma despesa cadastrada ainda",
+    "details": {
+      "date": "Data",
+      "amount": "Valor",
+      "category": "Categoria",
+      "description": "Descrição",
+      "vehicle": "Veículo",
+      "contract": "Contrato",
+      "notes": "Observações"
+    }
+  }
+}

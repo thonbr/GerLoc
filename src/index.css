@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  body {
+    @apply text-gray-800;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-medium text-gray-900;
+  }
+
+  h1 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h2 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  h3 {
+    @apply text-xl md:text-2xl;
+  }
+
+  h4 {
+    @apply text-lg md:text-xl;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 disabled:pointer-events-none disabled:opacity-50;
+  }
+
+  .btn-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-700;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary-500 text-white hover:bg-secondary-600;
+  }
+
+  .btn-accent {
+    @apply bg-accent-500 text-white hover:bg-accent-600;
+  }
+
+  .btn-outline {
+    @apply border border-gray-300 bg-transparent text-gray-700 hover:bg-gray-50;
+  }
+
+  .card {
+    @apply rounded-lg bg-white shadow-card transition-shadow hover:shadow-card-hover;
+  }
+
+  .form-input {
+    @apply rounded-md border border-gray-300 px-3 py-2 text-sm focus:border-primary-500 focus:outline-none focus:ring-1 focus:ring-primary-500;
+  }
+  
+  .form-label {
+    @apply mb-1 block text-sm font-medium text-gray-700;
+  }
+  
+  .form-error {
+    @apply mt-1 text-xs text-danger-600;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+  }
+
+  .badge-primary {
+    @apply bg-primary-100 text-primary-800;
+  }
+
+  .badge-success {
+    @apply bg-success-100 text-success-800;
+  }
+
+  .badge-warning {
+    @apply bg-warning-100 text-warning-800;
+  }
+
+  .badge-danger {
+    @apply bg-danger-100 text-danger-800;
+  }
+  
+  .badge-gray {
+    @apply bg-gray-100 text-gray-800;
+  }
+}
